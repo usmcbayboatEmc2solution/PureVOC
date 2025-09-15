@@ -1,24 +1,20 @@
-# Ignore sensitive files
-*.log  # Log files (e.g., debug logs)
-*.env  # Environment variables (e.g., API keys)
-*.key  # Encryption keys
-personal/  # Personal notes (e.g., CO litigation, Chris’s trial)
-drafts/  # Draft documents (e.g., unpolished pitches)
-sensitive/  # Sensitive data (e.g., US/Mexico ties, Padilla-related)
+.gitignore
 
-# Ignore temporary files
+# Ignore sensitive files
+*.log
+*.env
+*.key
+personal/
+drafts/
+sensitive/
 *.tmp
 *.bak
 *.swp
-.DS_Store  # macOS clutter
-Thumbs.db  # Windows clutter
-
-# Ignore proprietary code (to be shared only via NDA)
-three_wave_reconciliation.py  # Core harmonic logic (DTSA-protected)
-golden_pi_math.py  # Proprietary math (if separate file)
-
-# Allow non-core code and docs
-!mycelial_knowledge_graph.py  # Non-core, CC-BY-SA shareable
-!README.md  # Mission statement, public
-!CoverSheet.pdf  # Public cover sheet
-!NDA.pdf  # Optional NDA for innovators
+.DS_Store
+Thumbs.db
+three_wave_reconciliation.py
+golden_pi_math.py
+!mycelial_knowledge_graph.py
+!README.md
+!CoverSheet.pdf
+!NDA.pdf
