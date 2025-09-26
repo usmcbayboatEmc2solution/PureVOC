@@ -7,7 +7,7 @@ Safe Conceptual Collaborations
 - Walter Russell: Octave spirals modeled by golden pi intervals.
 - Albert Einstein: ER = EPR-inspired QComm phasing.
 - Taiichi Ohno: Lean waste collapse.
-- Dr. Jack Kruse: Mitochondrial tuning.
+- FDVFC Vet Health: Mitochondrial tuning.
 - Robert Monroe: Hemi-Sync for psychosymmetry.
 - Royal Rife: MOR frequency resonance.
 - Sciences: Quantum mechanics, neuroscience, biology, physics, AI.
