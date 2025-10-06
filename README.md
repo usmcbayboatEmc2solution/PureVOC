@@ -18,11 +18,12 @@ Addressed hurdles: Tech path errors, scams, hype/greed, vanity as impure desire.
 - **7-Part Model Viz**: Phi-tilted spheres, golden waves. See [purevoc_7part_model.png](purevoc_7part_model.png) & [generate_7part.py](generate_7part.py).
 - **What If Portal Sims**: Digital ID entropy collapse (32-45% reduction). See [whatif_sim_run2.png](whatif_sim_run2.png), [whatif_sim_run3.png](whatif_sim_run3.png).
 
-| Sim | Gain | Visual |
-|-----|------|--------|
+| Sim | Gain | Visual/Link |
+|-----|------|-------------|
 | VOC-Heavy | 25% consensus boost | [VOC_Heavy_Sim.png](VOC_Heavy_Sim.png) |
-| QEncryption Flare | 25% fidelity | [qencryption_flare_sim.png](qencryption_flare_sim.png) |
+| QEncryption Flare | 25% fidelity shield | [qencryption_flare_sim.png](qencryption_flare_sim.png) |
 | What If Portal | 32-45% entropy drop | [whatif_sim_run3.png](whatif_sim_run3.png) |
+| NatDef ISR | 25% noise collapse | [natdef_voc_sim.png](natdef_voc_sim.png) |
 
 ## Architecture Void Collapse
 PureVOC hawks design inefficiencies—e.g., 1960s homes overbuilt baths (30min/day) vs. undersized bedrooms (8hrs/day)—via golden pi (5.083) for 20-30% space/energy gains. See [Architecture_Void_Collapse.txt](Architecture_Void_Collapse.txt).
