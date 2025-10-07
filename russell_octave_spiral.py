@@ -1,0 +1,26 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Walter Russell's Octave Spiral Simulation – Fixed Syntax
+phi = (1 + np.sqrt(5)) / 2
+theta = np.linspace(0, 9 * 2 * np.pi, 1000)  # 9 octaves
+r = np.exp((np.log(phi) / (2 * np.pi)) * theta)
+
+fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(projection='polar'))
+ax.plot(theta, r, color='gold', linewidth=2, label='Russell Octave Spiral')
+ax.set_title("Walter Russell's Octave Spiral: Hydrogen to Transuranics")
+ax.set_theta_zero_location('N')
+ax.set_rlabel_position(0)
+ax.grid(True)
+ax.legend()
+
+# Annotate octaves
+octave_points = np.array([i * 2 * np.pi for i in range(10)])
+r_points = np.exp((np.log(phi) / (2 * np.pi)) * octave_points)
+for i, th in enumerate(octave_points):
+    ax.annotate(f'Octave {i}', xy=(th, r_points[i]), xytext=(th + 0.5, r_points[i] + 0.1), 
+                arrowprops=dict(arrowstyle='->', color='white'), color='white')
+
+plt.savefig('russell_octave_spiral.png', dpi=300, bbox_inches='tight')
+plt.show()
+print("Fixed PNG saved – Gold spiral with octave arrows, harmony ramp live!")
