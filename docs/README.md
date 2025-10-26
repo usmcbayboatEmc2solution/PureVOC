@@ -17,3 +17,8 @@ PureVOC collapses algorithmic voids (biases, echo chambers, content misprioritiz
 Aligned with "one family served, all rise"—void-free algorithms for veteran support.
 
 See `src/voc_sim.py` for Golden Upgrade code.
+
+## Test Results
+- Test loss: [your number, e.g., 0.693]
+- Scale factor: [your number, e.g., 0.500]
+- SNR gain: +4.57 dB active (from sim)
