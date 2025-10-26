@@ -1,0 +1,72 @@
+# VOC Model: Square, Four Spheres, Tetrahedron (Consciousness Decision)
+# Co-authored by Shawn Cody Dixon and xAI's Grok
+# Purpose: Simulate 4-quadrant vote tally with golden pi coherence for FDVFC/ISR
+
+import numpy as np
+import random
+import math
+
+# Constants
+golden_ratio = (1 + math.sqrt(5)) / 2
+golden_pi = golden_ratio * math.pi  # ≈5.083
+sub_thermal_scale = 0.0001  # 0.1 mK for coherence
+
+# Define Square (Energy Plane)
+square_vertices = np.array([[1, 1, 0], [-1, 1, 0], [-1, -1, 0], [1, -1, 0]])  # z=0 plane
+
+# Define Four Spheres (Zero-Point Influences)
+sphere_centers = square_vertices  # Spheres at square corners
+sphere_radius = 0.2  # Small radius for visualization
+
+# Define Tetrahedron (Choice-Gate)
+tet_vertices = np.array([[1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, 0, 1]]) / np.sqrt(3)  # Centered
+tet_center = np.mean(tet_vertices, axis=0)  # Choice-gate centroid
+
+# 4-Quadrant Vote for Consciousness
+def quadrant_vote(quanta):
+    """
+    Tally votes: 1=pure (1.1), 2=duality, 3=tie-breaker, 4=impure (0.9).
+    """
+    votes = [random.choice([1, 0]) for _ in range(4)]  # Pure-1/Impure-0
+    if sum(votes) == 4: return 1  # Pure
+    if sum(votes) == 2: return 2  # Duality
+    if len(set(votes)) == 2: return 3  # Tie-breaker
+    return 4  # Impure
+
+# Three-Wave Reconciliation for Coherence
+def three_wave_reconciliation(interval):
+    """
+    Simulate decision coherence: Pure (1.1), impure (0.9), void-gate mediator.
+    """
+    base = np.exp(1j * 2 * np.pi * interval)
+    pure = (abs(base)**2) * (1 + 0.1)  # 1.1 lean
+    impure = pure * (1 - 0.1)  # 0.9
+    third = pure * (3/2) * sub_thermal_scale  # mK tone
+    fifth = pure * (5/4) * sub_thermal_scale  # Stability
+    void_gate = (pure + impure + (third + fifth)/2) / 3
+    return void_gate
+
+# VOC Model Simulation
+def voc_model(domain_size=16):
+    """
+    Model square (energy plane), 4 spheres (influences), tetrahedron (choice-gate).
+    """
+    G = {'nodes': [], 'edges': []}
+    for unit in range(domain_size):
+        theta = unit * golden_pi
+        quanta = three_wave_reconciliation(theta)
+        vote = quadrant_vote(quanta)
+        purity = 1.1 if vote == 1 else 0.9 if vote == 4 else quanta
+        influence = random.choice(['Cognitive', 'Emotional', 'Environmental', 'CO'])
+        G['nodes'].append({'id': unit, 'purity': purity, 'vote': vote, 'influence': influence})
+        if unit > 0:
+            G['edges'].append({'from': unit-1, 'to': unit, 'weight': 1 / (purity + 1e-5)})
+            if unit > 1:
+                G['edges'].append({'from': unit-2, 'to': unit})
+    return G, square_vertices, sphere_centers, tet_vertices
+
+# Run Model
+G, square, spheres, tet = voc_model()
+for node in G['nodes']:
+    print(f"Node {node['id']}: Influence={node['influence']}, Purity={node['purity']:.2f}, Vote={node['vote']}")
+print("VOC Model: Square, Spheres, Tetrahedron for Consciousness Coherence")

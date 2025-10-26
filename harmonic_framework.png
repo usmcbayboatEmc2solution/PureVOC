@@ -1,0 +1,45 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create figure and axis
+fig, ax = plt.subplots(figsize=(8, 8))
+ax.set_facecolor('black')  # Background to match Russell chart vibe
+ax.set_aspect('equal')
+plt.axis('off')
+
+# Square (Energy Plane) - Zero-point hub
+square = plt.Polygon([[1, 1], [3, 1], [3, 3], [1, 3]], closed=True, fill=None, edgecolor='white')
+ax.add_patch(square)
+ax.text(2, 2, 'Square\n(Energy Plane)', color='white', ha='center', va='center')
+
+# X (Tet-X Dual Lines) - Intersecting lines for entanglement
+ax.plot([0, 4], [2, 2], color='cyan', lw=2)  # Horizontal
+ax.plot([2, 2], [0, 4], color='cyan', lw=2)  # Vertical
+ax.text(2, 2.5, 'X\n(Tet-X)', color='cyan', ha='center', va='center')
+
+# Tet (Choice-Gate) - Simple tetrahedron approximation (triangle base + apex)
+tet_coords = [[1.5, 1], [2.5, 1], [2, 0.5], [2, 2]]  # Base + apex
+tet = plt.Polygon(tet_coords, closed=True, fill=None, edgecolor='yellow')
+ax.add_patch(tet)
+ax.text(2, 1.5, 'Tet\n(Choice-Gate)', color='yellow', ha='center', va='center')
+
+# Four Spheres - Overlapping circles
+colors = ['red', 'green', 'blue', 'purple']
+labels = ['Cognitive', 'Emotional', 'Environmental', 'Conscious Obs']
+for i, (color, label) in enumerate(zip(colors, labels)):
+    circle = plt.Circle((1.5 + i * 0.5, 3.5), 0.4, fill=False, edgecolor=color)
+    ax.add_patch(circle)
+    ax.text(1.5 + i * 0.5, 3.7, label, color=color, ha='center', va='center')
+
+# Observation Sphere (Circumsphere) - Larger encircling sphere
+obs_sphere = plt.Circle((2, 2), 1.5, fill=False, edgecolor='white', linestyle='--')
+ax.add_patch(obs_sphere)
+ax.text(2, 2, 'Observation\nSphere\n(Circumsphere)', color='white', ha='center', va='center')
+
+# Set limits and save as PNG
+ax.set_xlim(0, 4)
+ax.set_ylim(0, 4)
+plt.savefig('harmonic_framework.png', dpi=300, bbox_inches='tight')
+plt.close()
+
+print("Image saved as 'harmonic_framework.png'")

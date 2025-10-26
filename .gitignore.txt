@@ -1,0 +1,20 @@
+.gitignore
+
+# Ignore sensitive files
+*.log
+*.env
+*.key
+personal/
+drafts/
+sensitive/
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+three_wave_reconciliation.py
+golden_pi_math.py
+!mycelial_knowledge_graph.py
+!README.md
+!CoverSheet.pdf
+!NDA.pdf

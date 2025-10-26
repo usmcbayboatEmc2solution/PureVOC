@@ -1,0 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+tet_vertices = np.array([[1, 1, 1], [1, -1, -1], [-1, 1, -1], [-1, -1, 1]])
+ax.plot_trisurf(tet_vertices[:, 0], tet_vertices[:, 1], tet_vertices[:, 2], color='r', alpha=0.5)
+ax.scatter([0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], c=['b', 'g', 'y', 'm'], label=['Cog', 'Emo', 'Env', 'CO'])
+ax.set_title('Tetrahedral Choice-Gate')
+plt.savefig('tet_choice_gate.png')
+plt.show()
