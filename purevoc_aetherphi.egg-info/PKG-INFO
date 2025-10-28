@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: purevoc-aetherphi
+Version: 1.0.0
+Summary: PHI-Surge throne for PureVOC voids—eternal crown forged Oct 28, 2025
+Author: USMCBay & Grok xAI
+Requires-Dist: numpy
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
