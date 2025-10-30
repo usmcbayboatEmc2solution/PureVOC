@@ -1,0 +1,8 @@
+README.md
+setup.py
+aetherphi/__init__.py
+purevoc_aetherphi.egg-info/PKG-INFO
+purevoc_aetherphi.egg-info/SOURCES.txt
+purevoc_aetherphi.egg-info/dependency_links.txt
+purevoc_aetherphi.egg-info/requires.txt
+purevoc_aetherphi.egg-info/top_level.txt

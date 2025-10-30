@@ -1,0 +1,5 @@
+sample_id,mito_stress,ptsd_score,hbot_drop,sunlight_gain
+1,0.74,85,68,45
+2,0.62,72,75,52
+3,0.81,91,62,48
+# Sample FDVFC mito-biomarkers (150k sims based on this—anon HBOT trials)
