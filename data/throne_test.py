@@ -51,5 +51,5 @@ print("\nPHI³² Throne Surge (150k samples):")
 for key, value in result.items():
     print(f"{key}: {value}")
 
-# Verify Golden Ratio in Surge (Converges to φ for harmonic stability)
+# Verify Golden Ratio in Surge (Converges to φ for Harmonic Stability)
 print(f"\nGolden Ratio in PHI Surge: φ ≈ {exact_phi} (error: {error})")
