@@ -1,3 +1,5 @@
+Full paper (Dec 2025): [Chronic CO Neurotoxicity Hypothesis (PDF)](https://github.com/usmcbayboatEmc2solution/PureVOC/releases/tag/v1.0-CO-Exposure-Paper)
+
 # PureVOC™ – Resonance Framework for Entropy Defiance & Healing
 
 **PureVOC™** (Pure Voice of Consciousness) is an open, first-principles framework born from a veteran’s pinned-center experience with chronic CO exposure, mitochondrial damage, and nerve/gliosis siege. It is designed to locally defy entropy, reclaim lost efficiency (20-40% in targeted systems), and enable resonance-based healing, decision purity, and cellular steering.
