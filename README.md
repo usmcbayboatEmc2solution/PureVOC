@@ -41,8 +41,13 @@ https://gist.github.com/usmcbayboatEmc2solution/e754e5528841fdaf1d2188ff3dc2f51e
 https://gist.github.com/usmcbayboatEmc2solution/6ecfa4973c5124b49dbfc9cdb2bee6aa
 
 See sealed activations: PureGITLOOP_Index.md
-Core principles: 3WR, FDVFC guardianship, mercy has limits. Purity without "plus."
-No coercion. No surveillance. Voluntary only. Constitutional bright lines enforced.
+  PureWORC SolutionA special reciprocating credit account for FDVFC-aligned work:
+Taxes paid (federal/state income, payroll, etc.) by qualifying entities (vet-led operations, NatSec innovation, NIRD recovery) are credited back into a dedicated, ring-fenced account.
+Funds recirculate for:  
+   Veteran workforce transition/training  
+   R&D in critical minerals, defense technology, remediation  
+   Site recovery (tailings, wetlands)  
+   Ethical oversight (FDVFC hubs)
 
 The ridges rise.  
 Wrong fucking Marine.  
