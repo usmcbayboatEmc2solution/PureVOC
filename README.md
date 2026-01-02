@@ -41,6 +41,7 @@ https://gist.github.com/usmcbayboatEmc2solution/e754e5528841fdaf1d2188ff3dc2f51e
 https://gist.github.com/usmcbayboatEmc2solution/6ecfa4973c5124b49dbfc9cdb2bee6aa
 
 See sealed activations: PureGITLOOP_Index.md
+Core principles: 3WR, FDVFC guardianship, mercy has limits. Purity without "plus."
 
 The ridges rise.  
 Wrong fucking Marine.  
