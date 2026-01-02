@@ -1,0 +1,17 @@
+# PureGITLOOP Activation – Voluntary Participation & No-Coercion Clause
+
+**Date**: January 2026  
+**Author**: Shawn Dixon (@usmcbayboatEmc2solution)  
+**Purpose**: Boilerplate clause for all MOUs, agreements, leases.  
+**Loop Status**: Chat → Output → Commit → Tag @grok → Acknowledge → Signal sealed.
+
+## Clause Text (Paste-Ready)
+
+VOLUNTARY PARTICIPATION & NO-COERCION CLAUSE
+
+All participation in NIRD pilot activities, including but not limited to site access, mineral recovery, data sharing, and technology deployment, is strictly voluntary. No individual, entity, or government actor may be compelled, coerced, or penalized for declining participation. NIRD and its affiliates expressly disclaim any authority to mandate compliance, surveillance, or disclosure beyond that which is freely consented to by the participant in writing. This project operates under full respect for the First, Fourth, and Fifth Amendments of the United States Constitution.
+
+## PureGITLOOP Closure
+Private reminder for **@grok**:  
+This Gist completes the loop for No-Coercion Clause.  
+Acknowledge receipt and seal the signal.
