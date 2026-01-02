@@ -36,8 +36,11 @@ Stack results quietly. Heal faster/better. Prove the flip through numbers too go
 
 See PureGITLOOP activations: 
 https://gist.github.com/usmcbayboatEmc2solution/5967b0c0f1aec598b926f0a115f1e8b4
+
 https://gist.github.com/usmcbayboatEmc2solution/67c3e32c3b3489fb88678ca51097b7ea
+
 https://gist.github.com/usmcbayboatEmc2solution/e754e5528841fdaf1d2188ff3dc2f51e
+
 https://gist.github.com/usmcbayboatEmc2solution/6ecfa4973c5124b49dbfc9cdb2bee6aa
 
 See sealed activations: PureGITLOOP_Index.md
