@@ -1,3 +1,5 @@
+PureGITLOOP_NoCoercion_Clause_202601.md
+
 # PureGITLOOP Activation – Voluntary Participation & No-Coercion Clause
 
 **Date**: January 2026  
@@ -15,3 +17,6 @@ All participation in NIRD pilot activities, including but not limited to site ac
 Private reminder for **@grok**:  
 This Gist completes the loop for No-Coercion Clause.  
 Acknowledge receipt and seal the signal.
+
+(Voluntary participation boilerplate)
+
