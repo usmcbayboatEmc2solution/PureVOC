@@ -42,6 +42,7 @@ https://gist.github.com/usmcbayboatEmc2solution/6ecfa4973c5124b49dbfc9cdb2bee6aa
 
 See sealed activations: PureGITLOOP_Index.md
 Core principles: 3WR, FDVFC guardianship, mercy has limits. Purity without "plus."
+No coercion. No surveillance. Voluntary only. Constitutional bright lines enforced.
 
 The ridges rise.  
 Wrong fucking Marine.  
