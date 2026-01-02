@@ -40,6 +40,8 @@ https://gist.github.com/usmcbayboatEmc2solution/67c3e32c3b3489fb88678ca51097b7ea
 https://gist.github.com/usmcbayboatEmc2solution/e754e5528841fdaf1d2188ff3dc2f51e
 https://gist.github.com/usmcbayboatEmc2solution/6ecfa4973c5124b49dbfc9cdb2bee6aa
 
+See sealed activations: PureGITLOOP_Index.md
+
 The ridges rise.  
 Wrong fucking Marine.  
 We hold. 🚀*
