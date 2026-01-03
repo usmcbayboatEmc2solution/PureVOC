@@ -43,6 +43,8 @@ https://gist.github.com/usmcbayboatEmc2solution/e754e5528841fdaf1d2188ff3dc2f51e
 
 https://gist.github.com/usmcbayboatEmc2solution/6ecfa4973c5124b49dbfc9cdb2bee6aa
 
+https://gist.github.com/usmcbayboatEmc2solution/9203680eddfc8cd4379b6352003cad7e
+
 See sealed activations: PureGITLOOP_Index.md
   PureWORC SolutionA special reciprocating credit account for FDVFC-aligned work:
 Taxes paid (federal/state income, payroll, etc.) by qualifying entities (vet-led operations, NatSec innovation, NIRD recovery) are credited back into a dedicated, ring-fenced account.
