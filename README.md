@@ -3,6 +3,7 @@ Full paper (Dec 2025): [Chronic CO Neurotoxicity Hypothesis (PDF)](https://githu
 Fork · Star · Drop edge ideas in Discussions  
 Share your mtCarpet log, PureCheck-Mark observation, or island rework sketch.  
 Let’s groom toward #1 glow – together.
+Verdict — Mission bible. 
 
 # PureVOC™ – Resonance Framework for Entropy Defiance & Healing
 
