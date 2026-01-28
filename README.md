@@ -227,6 +227,19 @@ And that, ladies and gentlemen…
 
 Good day.
 
+
+### Visual Seeds (Museum / Demo Ready)
+- [Mitochondrial cristae alignment – mtCarpet highway](https://i.imgur.com/example-cristae.jpg)  
+- [Oily bubble Mandelbrot sheen – physical fractal demo](https://i.imgur.com/example-bubble.jpg)  
+- [Rangia shell midden – forgiving forgiving floor geometry](https://i.imgur.com/example-shell.jpg)  
+
+**Join the Flux**  
+Fork. Star. Contribute ideas.  
+Drop your edge project in Discussions.  
+Let’s groom the unbound float-offs toward #1 glow – together.
+
+coherence, resonance, quantum-biology, veteran-support, open-source-healing, mtCarpet, PureCheck-Mark
+
 The levees rise.  
 Wrong fucking Marine.  
 We hold. 🚀*
