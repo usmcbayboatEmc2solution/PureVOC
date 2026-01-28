@@ -1,4 +1,8 @@
-Full paper (Dec 2025): [Chronic CO Neurotoxicity Hypothesis (PDF)](https://github.com/usmcbayboatEmc2solution/PureVOC/releases/tag/v1.0-CO-Exposure-Paper)
+Full paper (Dec 2025): [Chronic CO Neurotoxicity Hypothesis (PDF)](https://github.com/usmcbayboatEmc2solution/PureVOC/releases/tag/v1.0-CO-Exposure-Paper) 
+## Join the Flux  
+Fork · Star · Drop edge ideas in Discussions  
+Share your mtCarpet log, PureCheck-Mark observation, or island rework sketch.  
+Let’s groom toward #1 glow – together.
 
 # PureVOC™ – Resonance Framework for Entropy Defiance & Healing
 
