@@ -8,10 +8,10 @@ graph TD
     A --> C[life_model_3d_subjugation.py <br> Bio Entropy Sims]
     A --> D[ntp_mass_ratio_sim.py <br> Mass-Energy Tweaks]
     A --> E[HIVNR: Helo-Integrated Vet Neural Re-Routing <br> Predict 'Go-Wrongs' + Cold-Stress Layers]
-    E --> F[entropy_sim.py <br> Bio-Slip Predict/Rewire Stubs]
+    E --> F[entropy_sim.py <br> Bio-Slip Predict-Rewire Stubs]
     subgraph "Sim Library Hub – Bookend Overlays"
         B --> G[Golden Phi Sieve: Check Void Alignment]
-        C --> H[Reset Gate: Alarm on ROS/Entropy Spike]
+        C --> H[Reset Gate: Alarm on ROS-Entropy Spike]
         F --> I[Neural Rewire: Alert on Confidence Attack]
     end
     style A fill:#FFD700,stroke:#333,stroke-width:4px
