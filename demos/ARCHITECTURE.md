@@ -14,5 +14,5 @@ graph TD
         C --> H[Reset Gate: Alarm on ROS/Entropy Spike]
         F --> I[Neural Rewire: Alert on Confidence Attack]
     end
-    style A fill:#FFD700,stroke:#333,stroke-width:4px  // Golden center
-    style E fill:#00BFFF,stroke:#333  // Blue hybrid for predicts
+    style A fill:#FFD700,stroke:#333,stroke-width:4px
+    style E fill:#00BFFF,stroke:#333
