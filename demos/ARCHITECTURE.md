@@ -1,40 +1,18 @@
-# PureVOC™ Architecture
+# PureVOC™ Architecture – Galactic Overview
+
+ResoCore™ centers the flux — entropy defiance hub with golden phi sieves, choice-gates, resonance resets. Nodes connect for sim library (HIVNR, harmonics, mito models), bookend overlays flag checks (phi alignment), alerts (ROS voids), alarms (entropy spikes pre-blowback).
 
 ```mermaid
 graph TD
-    A[ResoCore™] --> B[generate_harmonic.py: Phi Waves]
-    A --> C[life_model_3d_subjugation.py: Entropy Sims]
-    A --> D[ntp_mass_ratio_sim.py: Mass-Energy Tweaks]
-    A --> E[HIVNR: Helo Predicts + Cold-Stress Layers]
-    E --> F[entropy_sim.py: Bio-Slip Stubs]
-    subgraph "System Checks/Alerts/Alarms"
-        B --> G[Golden Phi Sieve: Alert on Void]
-        C --> H[Reset Gate: Alarm on ROS Spike]
+    A[ResoCore™ <br> Entropy Defiance Core] --> B[generate_harmonic.py <br> Phi-Tuned Waves]
+    A --> C[life_model_3d_subjugation.py <br> Bio Entropy Sims]
+    A --> D[ntp_mass_ratio_sim.py <br> Mass-Energy Tweaks]
+    A --> E[HIVNR: Helo-Integrated Vet Neural Re-Routing <br> Predict 'Go-Wrongs' + Cold-Stress Layers]
+    E --> F[entropy_sim.py <br> Bio-Slip Predict/Rewire Stubs]
+    subgraph "Sim Library Hub – Bookend Overlays"
+        B --> G[Golden Phi Sieve: Check Void Alignment]
+        C --> H[Reset Gate: Alarm on ROS/Entropy Spike]
+        F --> I[Neural Rewire: Alert on Confidence Attack]
     end
-
-**File: src/entropy_sim.py**  
-**Type**: .py (Python Script)  
-**Description**: Node-strengthening input — bio-slip code stubs for predict/rewire cycles. Simulates entropy-spectrum "go-wrongs" (warm-wet pants, cold-wet plunge, family photo LZ). For HIVNR; add to src/. Predicts micro-options (e.g., 1M trajectories stubbed), resets to center.  
-
-```python
-import random
-
-def predict_bio_slip(entropy_type, intensity=1.0):
-    """Predict 'go-wrong' entropy: warm-wet (urgency), cold-wet (shock), LZ scatter (emotional)."""
-    if entropy_type == 'warm-wet':
-        return f"Predict: Urgency spike at {intensity*100}% - rewire to composure."
-    elif entropy_type == 'cold-wet':
-        return f"Predict: Norepi flood - reset panic to presence without ROS."
-    elif entropy_type == 'lz-scatter':
-        return f"Predict: Photo flies - confidence attack, rewire to grit."
-    # Stub for 1M+ micro-options: Monte Carlo sim
-    options = [random.uniform(0, 1) for _ in range(1000000)]  # Scaled stub
-    peak = max(options)
-    return f"Peak predict: {peak:.4f} overflow horizon."
-
-def rewire_cycle(prediction):
-    """Rewire neural path post-entropy: reset to pure center."""
-    return f"Cycle complete: {prediction} -> Full potential restored, no atrophy."
-
-# Example flux
-print(rewire_cycle(predict_bio_slip('warm-wet')))
+    style A fill:#FFD700,stroke:#333,stroke-width:4px  // Golden center
+    style E fill:#00BFFF,stroke:#333  // Blue hybrid for predicts
