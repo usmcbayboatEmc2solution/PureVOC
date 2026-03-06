@@ -16,3 +16,10 @@ graph TD
     end
     style A fill:#FFD700,stroke:#333,stroke-width:4px
     style E fill:#00BFFF,stroke:#333
+
+# PureVOC™ Architecture – Galactic Overview
+
+ResoCore™ centers the flux — entropy defiance hub with golden phi sieves, choice-gates, resonance resets. Nodes connect for sim library (HIVNR, harmonics, mito models), bookend overlays flag checks (phi alignment), alerts (ROS voids), alarms (entropy spikes pre-blowback).
+
+```mermaid
+[clean graph above]
