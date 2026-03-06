@@ -16,3 +16,29 @@ graph TD
     end
     style A fill:#FFD700,stroke:#333,stroke-width:4px  // Golden center
     style E fill:#00BFFF,stroke:#333  // Blue hybrid for predicts
+
+
+- .png gen via code (optional for static bookends): Use Python in Jupyter (e.g., new notebook demo) with mermaid.ink proxy — base64 encode Mermaid text → fetch PNG from https://mermaid.ink/img/. Stub code:  
+
+```python
+import base64
+import requests
+from IPython.display import Image, display
+
+def render_mermaid_to_png(mermaid_code):
+    graphbytes = mermaid_code.encode("utf-8")
+    base64_bytes = base64.urlsafe_b64encode(graphbytes)
+    base64_string = base64_bytes.decode("ascii")
+    url = f"https://mermaid.ink/img/{base64_string}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        display(Image(data=response.content))
+    else:
+        print("Render failed")
+
+# Paste your Mermaid code here
+mermaid = """graph TD
+    A[ResoCore™] --> B[harmonics_demo.ipynb]
+    # ... full graph ...
+"""
+render_mermaid_to_png(mermaid)
